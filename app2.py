@@ -9,7 +9,7 @@ ml = pickle.load(open('LinearRegressionModel.pkl','rb')) #LinearRegressionModel.
 def app():
     # Set the app title
     st.subheader(':blue[Welcome to,]')
-    st.title(' Second Hand Car Price Prediction')
+    st.title('Second Hand Car Price Prediction')
     
     # Add some instructions
     st.write('Enter the details of the car to get an estimated price.')
